@@ -1,0 +1,10 @@
+public class Square {    
+    public static boolean isSquare(int y) {   
+         int n = (int) Math.sqrt(y);
+
+    if (n*n == y)
+        return true;    
+    else 
+        return false;
+    }
+}
